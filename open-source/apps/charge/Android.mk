@@ -57,7 +57,7 @@ LOCAL_STATIC_LIBRARIES += libstdc++ libc libz liblog libm libmtdutils
 LOCAL_REQUIRED_MODULES := charge_res_images
 LOCAL_PROPRIETARY_MODULE := true
 
-include $(BUILD_EXECUTABLE)
+include $(BUILD_STATIC_EXECUTABLE)
 
 
 include $(commands_recovery_local_path)/minui/Android.mk
